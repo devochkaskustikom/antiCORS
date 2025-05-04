@@ -19,16 +19,8 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "keywords": [
-    "cors",
-    "proxy",
-    "nodejs",
-    "express",
-    "cross-origin",
-    "http-proxy",
-    "development"
-  ],
-  "author": "«девочка с кустиком» <ceo@asclabel.com>"",
+  "keywords": ["cors", "proxy", "nodejs", "express", "cross-origin", "http-proxy", "development"],
+  "author": "devochka s kustikom <ceo@asclabel.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
