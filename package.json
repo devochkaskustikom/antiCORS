@@ -1,0 +1,44 @@
+{
+  "name": "antiCORS",
+  "version": "1.0.0",
+  "description": "A lightweight CORS proxy server to bypass cross-origin restrictions in development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"No tests specified yet. Run 'npm install --dev jest' to set up testing.\" && exit 0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "http-proxy": "^1.18.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "cors",
+    "proxy",
+    "nodejs",
+    "express",
+    "cross-origin",
+    "http-proxy",
+    "development"
+  ],
+  "author": "«девочка с кустиком» <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devochkaskustikom/antiCORS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devochkaskustikom/antiCORS/issues"
+  },
+  "homepage": "https://github.com/devochkaskustikom/antiCORS#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
